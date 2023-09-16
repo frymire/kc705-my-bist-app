@@ -1,0 +1,10 @@
+
+After generating the bitstream and exporting hardware from within Vivado, copy <platform project>/hw/kc705-my-bist.bit into this folder. Then, you call update_mem to initialize the BRAM contents using the Hello.mem file. 
+
+From Vitis, select Xilinx -> Vitis Shell. Go to the <applicaton project>\_ide\bitstream folder, and then call:
+
+	updatemem -meminfo kc705-my-bist.mmi -data Hello.mem -proc design_1_i/uB -bit kc705-my-bist.bit -out kc705-my-bist-with-rom.bit
+
+Add the -force option if you are sure you're ready to overwrite an existing bit file.
+
+You can then add the elf file as usual from within Vitis, but be sure you are using the kc705-my-bist-with-rom.bit file.

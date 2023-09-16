@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="kc705-my-bist-app" location="D:/Vitis/kc705-my-bist/kc705-my-bist-app" platform="D:/Vitis/kc705-my-bist-system/export/kc705-my-bist-system/kc705-my-bist-system.xpfm" platformUID="xilinx:kc705::0.0(custom)" systemProject="kc705-my-bist-app-system" sysConfig="kc705-my-bist-system" runtime="C/C++" cpu="standalone_domain" cpuInstance="uB" os="standalone" dimmRepoPath="" language="CPP" mssSignature="41f76d1549bf931d85b153e312866bcc">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1283174015" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1715794922" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

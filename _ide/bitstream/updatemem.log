@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# updatemem v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# 
+# Start of session at: Thu May 19 09:08:25 2022
+# Process ID: 11848
+# Current directory: D:/Vitis/kc705-my-bist/kc705-my-bist-app/_ide/bitstream
+# Command line: updatemem.exe -mode batch -source C:/Xilinx/Vitis/2020.1/scripts/updatemem/main.tcl -notrace -tclargs -meminfo kc705-my-bist.mmi -data Hello.mem -proc design_1_i/uB -bit kc705-my-bist.bit -out kc705-my-bist-with-rom.bit
+# Log file: D:/Vitis/kc705-my-bist/kc705-my-bist-app/_ide/bitstream/updatemem.log
+# Journal file: D:/Vitis/kc705-my-bist/kc705-my-bist-app/_ide/bitstream\updatemem.jou
+#-----------------------------------------------------------
+source C:/Xilinx/Vitis/2020.1/scripts/updatemem/main.tcl -notrace
+Command: update_mem -meminfo kc705-my-bist.mmi -data Hello.mem -proc design_1_i/uB -bit kc705-my-bist.bit -out kc705-my-bist-with-rom.bit
+Loading bitfile kc705-my-bist.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Writing bitstream kc705-my-bist-with-rom.bit...
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+update_mem completed successfully
+update_mem: Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1031.516 ; gain = 586.504
+INFO: [Common 17-206] Exiting updatemem at Thu May 19 09:08:42 2022...

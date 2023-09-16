@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# updatemem v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# 
+# Start of session at: Mon Feb  1 16:01:21 2021
+# Process ID: 17660
+# Current directory: D:/Vitis/kc705-my-bist/kc705-my-bist-app
+# Command line: updatemem.exe -mode batch -source C:/Xilinx/Vitis/2020.1/scripts/updatemem/main.tcl -notrace -tclargs -meminfo D:/Vitis/kc705-my-bist/kc705-my-bist-app/_ide/bitstream/kc705-my-bist.mmi -data D:/Vitis/kc705-my-bist/kc705-my-bist-app/_ide/bitstream/hello.mem -proc design_1_i/uB -bit D:/Vitis/kc705-my-bist/kc705-my-bist-app/_ide/bitstream/download.bit -out D:/Vitis/kc705-my-bist/kc705-my-bist-app/_ide/bitstream/download_with_rom.bit
+# Log file: D:/Vitis/kc705-my-bist/kc705-my-bist-app/updatemem.log
+# Journal file: D:/Vitis/kc705-my-bist/kc705-my-bist-app\updatemem.jou
+#-----------------------------------------------------------
+source C:/Xilinx/Vitis/2020.1/scripts/updatemem/main.tcl -notrace
+Command: update_mem -meminfo D:/Vitis/kc705-my-bist/kc705-my-bist-app/_ide/bitstream/kc705-my-bist.mmi -data D:/Vitis/kc705-my-bist/kc705-my-bist-app/_ide/bitstream/hello.mem -proc design_1_i/uB -bit D:/Vitis/kc705-my-bist/kc705-my-bist-app/_ide/bitstream/download.bit -out D:/Vitis/kc705-my-bist/kc705-my-bist-app/_ide/bitstream/download_with_rom.bit
+Loading bitfile D:/Vitis/kc705-my-bist/kc705-my-bist-app/_ide/bitstream/download.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Writing bitstream D:/Vitis/kc705-my-bist/kc705-my-bist-app/_ide/bitstream/download_with_rom.bit...
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+update_mem completed successfully
+update_mem: Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 960.273 ; gain = 515.645
+INFO: [Common 17-206] Exiting updatemem at Mon Feb  1 16:01:39 2021...
